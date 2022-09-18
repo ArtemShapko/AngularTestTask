@@ -1,0 +1,6 @@
+<div class="information" *ngFor="let itemInvestment of itemsInvestment">
+    <div class="fullName">
+        {{itemInvestment.name.first + ' ' + itemInvestment.name.last }}
+    </div>
+    <div class="type"> {{itemInvestment.amount}}</div>
+</div>
